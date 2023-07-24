@@ -1,0 +1,48 @@
+body,html{
+    direction: rtl;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(41, 41, 41);
+}
+header{
+    height: 25px;
+    box-shadow: 1px 1px 10px #000000 ;
+    transition: 1s;
+}
+header:hover{
+    box-shadow: 1px 1px 10px #dc3545 ;
+    transition: 1s;
+}
+main{
+    margin-top: 5px;
+    height: 70%;
+}
+.timer{
+    font-size: 80px;
+    box-shadow: 1px 1px 10px #000000 ;
+    transition: 1s;
+}
+.timer:hover{
+    box-shadow: 1px 1px 10px #dc3545 ;
+    transition: 1s;
+}
+.timer-text{
+    font-size: 80px;
+    direction: ltr;
+}
+img{
+    width: 150px;
+}
+.text-div{
+    box-shadow: 1px 1px 10px #000000 ;
+    transition: 1s;
+    /* background-color: #6c757d; */
+}
+.text-div:hover{
+    box-shadow: 1px 1px 10px #dc3545 ;
+    transition: 1s;
+}
+textarea{
+    font-size: 30px;
+    direction: ltr;
+}
